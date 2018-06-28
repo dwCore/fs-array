@@ -1,0 +1,24 @@
+{
+  "name": "@dwcore/fs-array",
+  "version": "0.1.1",
+  "description": "Create A Wrapped dwStream Based On An Array.",
+  "main": "dwfs-array.js",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "set -e; for t in array-test/*.js; do node $t; done"
+  },
+  "dependencies": {
+    "@dwcore/dws2wrap": "dwcore/dws2wrap#master"
+  },
+  "devDependencies": {
+    "@dwcore/dws2": "dwcore/dws2#master",
+    "tape": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
